@@ -111,7 +111,7 @@ public class Booster_Behavior : MonoBehaviour
     public void LeaveScene()
     {
         //teleports out of scene
-        transform.position = new Vector2(-10f, transform.position.y);
+        transform.position = new Vector2(-15f, transform.position.y);
         //shows sprite
         gameObject.GetComponent<SpriteRenderer>().enabled = true;
         //turn on static animation
